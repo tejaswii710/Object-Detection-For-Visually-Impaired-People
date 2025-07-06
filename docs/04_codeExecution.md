@@ -29,9 +29,10 @@ Refer to the file: code.md for full working code.
 ---
 
 ## Step 3: Run the Project in pycharm 
--Right-click proj.py and click Run in pycharm 
--Your webcam will turn on and start detecting objects  
--For each new object detected, AWS Polly will speak its name aloud  
+
+- Right-click proj.py and click Run in pycharm 
+- Your webcam will turn on and start detecting objects  
+- For each new object detected, AWS Polly will speak its name aloud  
 
 
 
