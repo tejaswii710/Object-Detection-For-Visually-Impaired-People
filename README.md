@@ -14,6 +14,6 @@ This project uses YOLOv5 and AWS Polly to detect objects in real time and provid
 ## 📸 Screenshots
 
 ### ✅ Final Output
-![Result](images/Screenshot 2025-07-06 123300.png)
+![Result](images/result.png)
 
 
