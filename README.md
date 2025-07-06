@@ -1,4 +1,4 @@
-# Real-Time Object Detection for Visually Impaired
+# Real-Time Object Detection for Visually Impaired people using AWS and machine learning models
 
 This project uses YOLOv5 and AWS Polly to detect objects in real time and provide audio feedback to help visually impaired individuals.
 
