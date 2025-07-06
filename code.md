@@ -1,3 +1,10 @@
+# CODE 
+
+## Step 1: Create proj.py File  
+In PyCharm, right-click your project folder → select **New** → **Python File** → name it `proj.py` → press Enter.  
+Now paste the full code (available in `code.md`) into this file.
+
+```
 import numpy as np
 import cv2
 import torch
@@ -7,13 +14,14 @@ import os
 import re
 from playsound import playsound
 
-
-polly_client = boto3.client(
-    'polly',
-    aws_access_key_id="---",
-    aws_secret_access_key="---",
+# Initialize AWS Polly client with your credentials
+polly = boto3.client(
+    "polly",
+    aws_access_key_id="YOUR_ACCESS_KEY",
+    aws_secret_access_key="YOUR_SECRET_KEY",
     region_name="us-east-1"
 )
+
 
 
 os.makedirs("audio_cache", exist_ok=True)
@@ -84,3 +92,6 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 print("Exited object detection.")
+```
+
+
