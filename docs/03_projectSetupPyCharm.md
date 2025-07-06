@@ -13,7 +13,7 @@ Follow the steps below to set up your real-time object detection project using P
 - torchvision
 - playsound
 
-Step 2: Install Required Libraries  
+## Install Required Libraries  
 Open terminal inside PyCharm and run the following command to install all required packages:  
 
 pip install boto3 opencv-python torch torchvision playsound  
